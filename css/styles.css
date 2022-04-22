@@ -1,0 +1,22 @@
+body {
+    background-color: bisque !important;
+}
+
+* {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.character {
+    width: 40%;
+    padding: 5%;
+    min-width: 40%;
+    max-width: 40%;
+}
+
+.logo {
+    width: 100% !important;
+    filter: opacity(0.1);
+}
