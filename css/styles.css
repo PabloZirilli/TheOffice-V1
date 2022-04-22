@@ -10,10 +10,10 @@ body {
 }
 
 .character {
-    width: 40%;
+    width: 140px;
     padding: 5%;
-    min-width: 40%;
-    max-width: 40%;
+    min-width: 140px;
+    max-width: 140px;
 }
 
 .logo {

@@ -14,31 +14,8 @@ function getRandomNumber(min, max) {
 
 const request = 'https://the-office.p.rapidapi.com/' + getRandomNumber(1,26);
 
-
-
-/* function callApi(indice) {
-    const request = 'https://the-office.p.rapidapi.com/' + indice;
-
-    fetch(request , options)
-	.then(response => response.json())
-	.then(response => {
-        // createResult(response)
-        if (response.id != null) {
-            indice++
-            callApi(indice)
-        }
-        console.log(indice)
-        console.log(response)
-    })
-	.catch(err => console.error(err)
-);
-}
-
-callApi(indice); */
-
-
-    fetch(request , options)
-	.then(response => response.json())
+fetch(request , options)
+    .then(response => response.json())
 	.then(response => {
         createResult(response)
         console.log(response)
